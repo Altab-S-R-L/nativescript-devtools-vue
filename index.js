@@ -1,5 +1,5 @@
 const devtools = require('@vue/devtools');
-const {isAndroid} = require('tns-core-modules/platform')
+const {isAndroid} = require('@nativescript/core')
 
 if (!global.performance) {
   global.performance = {};
@@ -55,7 +55,7 @@ function getServerIpAddress(host, port) {
 // Wrap the toast message in a try, devtool still work without toaster
 const showToast = (message) => {
   try {
-    const Toasty = require('nativescript-toasty').Toasty;
+    const Toasty = require('nativescript-toasty-ns-7').Toasty;
     new Toasty({
       text: message,
       backgroundColor: '#53ba82',
@@ -70,7 +70,7 @@ module.exports = function install(Vue, {debug = false, host = null, port = 8098}
   // ensure all dependencies are available and bail out if anything is missing
   try {
     require.resolve('nativescript-socketio')
-    require.resolve('nativescript-toasty')
+    require.resolve('nativescript-toasty-ns-7')
     require.resolve('@vue/devtools')
   } catch (e) {
     console.log('[nativescript-vue-devtools] skipping install due to missing dependencies.\n\n', e, '\n\n')
