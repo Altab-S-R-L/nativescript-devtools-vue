@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/nativescript-vue/nativescript-vue-devtools#readme",
   "peerDependencies": {
-    "@nativescript/core": "7.0.3",
+    "@nativescript/core": "^7.0.11",
     "nativescript-toasty-ns-7": "14.0.0",
     "nativescript-socketio": "*",
     "@vue/devtools": "*"
