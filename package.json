@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-vue-devtools-ns-7",
-  "version": "11.4.0",
+  "name": "nativescript-devtools-vue",
+  "version": "11.4.1",
   "description": "A NativeScript-Vue plugin for connecting to the standalone vue-devtools",
   "main": "index.js",
   "nativescript": {
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nativescript-vue/nativescript-vue-devtools.git"
+    "url": "git+https://github.com/upd4ting/nativescript-vuedevtools.git"
   },
   "keywords": [
     "nativescript",
@@ -26,15 +26,18 @@
     "vuejs"
   ],
   "author": "Igor Randjelovic",
+  "contributors": [
+    "Antony Rizzitelli"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nativescript-vue/nativescript-vue-devtools/issues"
+    "url": "https://github.com/upd4ting/nativescript-vuedevtools/issues"
   },
-  "homepage": "https://github.com/nativescript-vue/nativescript-vue-devtools#readme",
+  "homepage": "https://github.com/upd4ting/nativescript-vuedevtools#readme",
   "peerDependencies": {
     "@nativescript/core": "^7.0.11",
-    "nativescript-toasty-ns-7": "14.0.0",
-    "nativescript-socketio": "*",
+    "nativescript-toasty": "^3.0.0-alpha.2",
+    "nativescript-socket.io": "*",
     "@vue/devtools": "*"
   }
 }
