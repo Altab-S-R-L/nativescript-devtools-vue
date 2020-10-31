@@ -1,4 +1,4 @@
-# nativescript-vue-dev.tools
+# nativescript-devtools-vue
 
 A NativeScript-Vue plugin for connecting to the standalone vue-devtools.
 This version is using `nativescript-socket.io` instead of `nativescript-socketio`.
