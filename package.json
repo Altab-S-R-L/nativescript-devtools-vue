@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-devtools-vue",
+  "name": "@vulksoft/nativescript-devtools-vue",
   "version": "11.4.1",
   "description": "A NativeScript-Vue plugin for connecting to the standalone vue-devtools",
   "main": "index.js",
