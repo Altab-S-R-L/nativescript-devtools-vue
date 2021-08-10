@@ -1,6 +1,6 @@
 {
   "name": "@vulksoft/nativescript-devtools-vue",
-  "version": "11.4.1",
+  "version": "11.4.2",
   "description": "A NativeScript-Vue plugin for connecting to the standalone vue-devtools",
   "main": "index.js",
   "nativescript": {
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/upd4ting/nativescript-vuedevtools#readme",
   "peerDependencies": {
     "@nativescript/core": "^7.0.11",
-    "nativescript-toasty": "^3.0.0-alpha.2",
+    "@triniwiz/nativescript-toasty": "^4.1.3",
     "nativescript-socket.io": "*",
     "@vue/devtools": "*"
   }

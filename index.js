@@ -55,7 +55,7 @@ function getServerIpAddress(host, port) {
 // Wrap the toast message in a try, devtool still work without toaster
 const showToast = (message) => {
   try {
-    const Toasty = require("nativescript-toasty").Toasty;
+    const Toasty = require("@triniwiz/nativescript-toasty").Toasty;
     new Toasty({
       text: message,
       backgroundColor: "#53ba82",
@@ -73,7 +73,7 @@ module.exports = function install(
   // ensure all dependencies are available and bail out if anything is missing
   try {
     require.resolve("nativescript-socket.io");
-    require.resolve("nativescript-toasty");
+    require.resolve("@triniwiz/nativescript-toasty");
     require.resolve("@vue/devtools");
   } catch (e) {
     console.log(
