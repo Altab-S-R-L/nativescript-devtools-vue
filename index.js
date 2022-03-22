@@ -72,7 +72,7 @@ module.exports = function install(
 ) {
   // ensure all dependencies are available and bail out if anything is missing
   try {
-    require.resolve("nativescript-socket.io");
+    require.resolve("@altabsrl/nativescript-socket.io");
     require.resolve("@triniwiz/nativescript-toasty");
     require.resolve("@vue/devtools");
   } catch (e) {
@@ -93,7 +93,7 @@ module.exports = function install(
         showToast,
         io() {
           try {
-            const SocketIO = require("nativescript-socket.io");
+            const SocketIO = require("@altabsrl/nativescript-socket.io");
             if (debug) {
               SocketIO.enableDebug();
             }
